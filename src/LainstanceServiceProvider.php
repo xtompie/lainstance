@@ -3,9 +3,9 @@
 namespace Xtompie\Lainstance;
 
 use Illuminate\Support\Facades\App;
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class ServiceProvider extends BaseServiceProvider
+class LainstanceServiceProvider extends ServiceProvider
 {
     public function boot()
     {

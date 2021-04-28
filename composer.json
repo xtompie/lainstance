@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Xtompie\\Lainstance\\ServiceProvider"
+                "Xtompie\\Lainstance\\LainstanceServiceProvider"
             ]
         }
     }
