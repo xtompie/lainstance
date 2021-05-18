@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\App;
 
 trait Instance
 {
-    public static function instance(): static
+    public static function instance()
     {
         return App::make(static::class);
     }
